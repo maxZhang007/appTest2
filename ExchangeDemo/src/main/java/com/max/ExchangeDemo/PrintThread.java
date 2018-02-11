@@ -9,7 +9,7 @@ public class PrintThread extends Thread{
 	public PrintThread(PaymentService paymentService){
         this.paymentService = paymentService;
     }
-	
+	//bb
 	public void run() {
 		//print per minute
 		while(true){
