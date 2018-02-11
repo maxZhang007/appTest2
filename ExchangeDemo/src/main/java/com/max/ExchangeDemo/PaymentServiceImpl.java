@@ -13,7 +13,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class PaymentServiceImpl implements PaymentService {
-
+	//test git
 	private final Map<String, Payment> paymentMap = new LinkedHashMap<String, Payment>();
 	
 	//add one payment
